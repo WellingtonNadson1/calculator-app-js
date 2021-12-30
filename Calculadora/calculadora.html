@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora JS</title>
+    <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -13,96 +14,81 @@
 </head>
 
 <body>
-    <div class="card">
-        <div class="card-header">
-            Calculadora JS
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title text-right resultado">0</h5>
-            </div>
-          </div>
-
-        <div class="card-body">
-            <div class="row">
-                <div class="col-3">
-                    <button type="reset" class="btn btn-danger">C</button>
-                </div>
-                <div class="col-3"></div>
-                <div class="col-3"></div>
-                <div class="col-3">
-                    <button type="button" class="btn btn-secondary limpar "><</button>
-                </div>
-            </div>
-
-                <div class="row">
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-7" value="7">7</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-8" value="8">8</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-9" value="9">9</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary dividir">/</button>
-                    </div>
-                </div>
-            
-                <div class="row">
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-4" value="4">4</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-5" value="5">5</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-6" value="6">6</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary multiplicar">x</button>
-                    </div>
-                </div>
-            
-                <div class="row">
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-1" value="1">1</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-2" value="2">2</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-3" value="3">3</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary subtrair">-</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary num-0" value="0">0</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="btn btn-primary virgula">,</button>
-                    </div>
-                    <div class="col-3">
-                        <button type="submit" class="btn btn-primary soma">+</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-3"></div>
-                    <div class="col-3"></div>
-                    <div class="col-3">
-                        <button type="submit" class="btn btn-success igual">=</button>
-                    </div>
-                </div>
-        </div>
+    <div class="card base">
+        <table class="table table-borderless">
+            <thead>
+              <tr>
+                <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                    <button type="button" class="btn btn-light">7</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">8</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">9</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light"><</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">C</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <button type="button" class="btn btn-light">4</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">5</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">6</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">x</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">/</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <button type="button" class="btn btn-light">1</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">2</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">3</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">+</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">-</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <button type="button" class="btn btn-light">%</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">0</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light">.</button>
+                </td>
+                <td colspan="2">
+                    <button type="button" class="btn btn-light">=</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
     </div>
 </body>
 
