@@ -4,4 +4,20 @@ body > div.card{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
+    padding: 14px;
 }
+
+button{
+    width: 100%;
+}
+
+#display-resultado{
+    height: 11rem;
+}
+
+table{
+    width: 100%;
+    margin-bottom: -14px;
+    background-color: white;
+}
+
