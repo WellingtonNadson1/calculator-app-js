@@ -63,3 +63,10 @@ button{
     background-color: rgb(226, 226, 247);
 }
 
+#table > tbody > tr:nth-child(4) > td:nth-child(4) > button{
+    background-color: rgb(154, 219, 154);
+}
+
+#table > tbody > tr:nth-child(4) > td:nth-child(4) > button:hover{
+    background-color: rgb(98, 175, 98);
+}
