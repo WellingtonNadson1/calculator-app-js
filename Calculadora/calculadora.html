@@ -17,19 +17,19 @@
 <body>
     <div class="card base">
         <div class="telaResultado">
-            <input type="text" id="display-resultado" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
+            <input type="text" id="display" class="form-control" aria-describedby="basic-addon1">
         </div>
         <table id="table" class="table table-borderless">
             <tbody>
               <tr>
                 <td>
-                    <button type="button" class="btn btn-light btn7">7</button>
+                    <button type="button" class="btn btn-light num7"  value="7">7</button>
                 </td>
                 <td>
-                    <button type="button" class="btn btn-light btn8">8</button>
+                    <button type="button" class="btn btn-light num8" value="8">8</button>
                 </td>
                 <td>
-                    <button type="button" class="btn btn-light btn9">9</button>
+                    <button type="button" class="btn btn-light num9" value="9">9</button>
                 </td>
                 <td>
                     <button type="button" id="limpar" class="btn btn-light"><img src="img/seta-para-a-esquerda.png" alt=""></button>
@@ -40,50 +40,50 @@
               </tr>
               <tr>
                 <td>
-                    <button type="button" class="btn btn-light btn4">4</button>
+                    <button type="button" class="btn btn-light num4" value="4">4</button>
                 </td>
                 <td>
-                    <button type="button" class="btn btn-light btn5">5</button>
+                    <button type="button" class="btn btn-light num5" value="5">5</button>
                 </td>
                 <td>
-                    <button type="button" class="btn btn-light btn6">6</button>
+                    <button type="button" class="btn btn-light num6" value="6">6</button>
                 </td>
                 <td>
-                    <button type="button" id="multiplicar" class="btn btn-light">x</button>
+                    <button type="button" id="multiplicar" class="btn btn-light operador">x</button>
                 </td>
                 <td>
-                    <button type="button" id="dividir" class="btn btn-light">/</button>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                    <button type="button" class="btn btn-light btn1">1</button>
-                </td>
-                <td>
-                    <button type="button" class="btn btn-light btn2">2</button>
-                </td>
-                <td>
-                    <button type="button" class="btn btn-light btn3">3</button>
-                </td>
-                <td>
-                    <button type="button" id="somar" class="btn btn-light">+</button>
-                </td>
-                <td>
-                    <button type="button" id="subtrair" class="btn btn-light">-</button>
+                    <button type="button" id="dividir" class="btn btn-light operador">/</button>
                 </td>
               </tr>
               <tr>
                 <td>
-                    <button type="button" class="btn btn-light btn%">%</button>
+                    <button type="button" class="btn btn-light num1" value="1">1</button>
                 </td>
                 <td>
-                    <button type="button" class="btn btn-light btn0">0</button>
+                    <button type="button" class="btn btn-light num2" value="2">2</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light num3" value="3">3</button>
+                </td>
+                <td>
+                    <button type="button" id="somar" class="btn btn-light operador">+</button>
+                </td>
+                <td>
+                    <button type="button" id="subtrair" class="btn btn-light operador">-</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <button type="button" class="btn btn-light btnporcento">%</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-light num0" value="0">0</button>
                 </td>
                 <td>
                     <button type="button" class="btn btn-light btnponto">.</button>
                 </td>
                 <td colspan="2">
-                    <button type="button" id="resultado" class="btn btn-light">=</button>
+                    <button type="button" id="igual" class="btn btn-light">=</button>
                 </td>
               </tr>
             </tbody>
